@@ -139,9 +139,6 @@ function whatIsThisNum(num){
 whatIsThisNum(-10)
 whatIsThisNum(10)
 
-function isPrime(num){
-
-}
 
 /*
 Write a function `calculator()` thats get 3 arguments : num1,num2,operand (“+”,”-”,”/”,”%”,”*”) and return the answer of the equation. 
@@ -169,6 +166,7 @@ function calculator(num1,num2,operator){
 
 }
 
+//EX12
 function isLeapYear( year){
     if(year %4 === 0){
         if(year %100 === 0 && year %400 === 0){
@@ -182,6 +180,7 @@ function isLeapYear( year){
     return false;
 }
 
+//EX13
 function arreng(num1,num2,num3){
     if(num1 > num2){
         if(num1 > num3){
@@ -200,6 +199,7 @@ function arreng(num1,num2,num3){
     }
 } 
 
+//EX14
 function shuttleSafty(crewStatus,computerStatusCode,shuttleSpeed){
     //crewStatus
     if(crewStatus){
@@ -233,30 +233,30 @@ function shuttleSafty(crewStatus,computerStatusCode,shuttleSpeed){
     }
 
 
-    
+//EX15
     function switching(somting){
         switch(somting){
-            case somting === "red":
+            case "red":
                 console.log('Red is the color of danger')
             break;
             
-            case somting === "orange":
+            case "orange":
                 console.log('Orange is the color of caution')
             break;
             
-            case somting === "yellow":
+            case "yellow":
                 console.log('Yellow is the color of sunshine')
             break;
             
-            case somting === "green":
+            case "green":
                 console.log('Green is the color of nature')
             break;
             
-            case somting === "blue":
+            case "blue":
                 console.log('Blue is the color of the sky')
             break;
             
-            case somting === "purple":
+            case "purple":
                 console.log('Purple is the color of royalty')
             break;
             
@@ -264,4 +264,4 @@ function shuttleSafty(crewStatus,computerStatusCode,shuttleSpeed){
                 console.log('Invalid color')
         }
     }
-   
+   switching('red')
